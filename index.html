@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Follow Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            padding: 15px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+            width: 200px;
+        }
+        button:hover {
+            opacity: 0.8;
+        }
+        #youtube {
+            background-color: #ff0000;
+            color: white;
+        }
+        #telegram, #telegramGroup {
+            background-color: #0088cc;
+            color: white;
+        }
+        #tiktok {
+            background-color: #000000;
+            color: white;
+        }
+        #facebook {
+            background-color: #4267B2;
+            color: white;
+        }
+        #instagram {
+            background-color: #E1306C;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Follow Us on Social Media</h1>
+    <button id="youtube" onclick="openYouTube()">Subscribe on YouTube</button>
+    <button id="telegramGroup" onclick="openTelegramGroup()">Join Telegram Group</button>
+    <button id="telegram" onclick="openTelegram()">Join Telegram</button>
+    <button id="tiktok" onclick="openTikTok()">Follow on TikTok</button>
+    <button id="facebook" onclick="openFacebook()">Follow on Facebook</button>
+    <button id="instagram" onclick="openInstagram()">Follow on Instagram</button>
+
+    <script>
+        function openYouTube() {
+            window.open('https://www.youtube.com/channel/UCLBivSEh30F44ptAAgEVRUA?sub_confirmation=1', '_blank');
+        }
+        function openTelegramGroup() {
+            window.open('https://t.me/trust2123', '_blank');
+        }
+        function openTelegram() {
+            window.open('https://t.me/GOGSmore', '_blank');
+        }
+        function openTikTok() {
+            window.open('https://tiktok.com/@assefagashaye', '_blank');
+        }
+        function openFacebook() {
+            window.open('https://www.facebook.com/profile.php?id=10...', '_blank');
+        }
+        function openInstagram() {
+            window.open('https://www.instagram.com/gashayeassefa?ig...', '_blank');
+        }
+    </script>
+
+</body>
+</html>
